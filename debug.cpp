@@ -46,7 +46,7 @@
 #endif
 
 #define DEBUGGER_NAME "spu3"
-#define DEBUGGER_ID_PLAYSTATION_3_SPU PLFM_SPU
+#define DEBUGGER_ID_PLAYSTATION_3_SPU (0x8004)
 #define PROCESSOR_NAME "spu"
 
 static error_t idaapi idc_threadlst(idc_value_t *argv, idc_value_t *res);
